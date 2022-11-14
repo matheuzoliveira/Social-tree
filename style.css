@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body, html {
+    font-family:"poppins", sans-serif;
+    background-color:rgb(140, 236, 98);
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.avatar {
+    width: 213px;
+    height: 213px;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.insta-user{
+    margin-top: 15px;
+    color: green
+}
+
+.links-container {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    margin-top: 15px;
+    width: 300px;
+
+    border: solid 1px green;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    color:green;
+    transition: ease 1s;
+
+}
+
+.link:hover {
+    background-color: springgreen;
+}
+
+.icons {
+    margin-top: 50px
+}
+
