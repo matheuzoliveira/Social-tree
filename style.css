@@ -9,7 +9,7 @@
 
 body, html {
     font-family:"poppins", sans-serif;
-    background-color:rgb(140, 236, 98);
+    background-color: rgb(19, 5, 50);
 }
 
 
@@ -37,11 +37,11 @@ body, html {
     align-items: center;
     justify-content: center;
 
-    border: 1px solid green;
+    border: 1px solid rgb(147, 11, 124);
     border-radius: 50%;
 }
 
-.avatar img {
+.foto img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -50,7 +50,7 @@ body, html {
 
 .insta-user{
     margin-top: 15px;
-    color: green
+    color: rgb(190, 15, 138)
 }
 
 .links-container {
@@ -64,12 +64,12 @@ body, html {
     margin-top: 15px;
     width: 300px;
 
-    border: solid 1px green;
+    border: solid 1px rgb(64, 6, 46);
     border-radius: 4px;
 
     display: flex;
     justify-content: center;
-    color:green;
+    color:rgb(234, 26, 200);
     transition: ease 1s;
 
 }
